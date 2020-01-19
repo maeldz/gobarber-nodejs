@@ -1,13 +1,43 @@
-# gobarber-nodejs
-Application created in Node.js for barbers registration and client scheduling.
-<br>
-## Login
-![Anotação 2019-09-01 152035](https://user-images.githubusercontent.com/54718471/64080543-22c15100-cccc-11e9-93dc-d019ebbe0068.png)
-## Register
-![Anotação 2019-09-01 152725](https://user-images.githubusercontent.com/54718471/64080656-0a9e0180-cccd-11e9-81db-c50a73e406fe.png)
-## Barbers list
-![Anotação 2019-09-01 152302](https://user-images.githubusercontent.com/54718471/64080617-cb6fb080-cccc-11e9-82a7-ad230b872da2.png)
-## New schedule
-![Anotação 2019-09-01 152438](https://user-images.githubusercontent.com/54718471/64080618-cc084700-cccc-11e9-8cdc-e118372d0f61.png)
-## Schedule list
-![Anotação 2019-09-01 152537](https://user-images.githubusercontent.com/54718471/64080619-cc084700-cccc-11e9-88af-abe773162462.png)
+# :barber: gobarber-nodejs-v1
+
+## :computer: Preview
+
+- You can see the web preview printscreens [here](preview).
+
+### :key: Authentication
+
+- [x] The user can login using e-mail and password.
+
+## :man: User register
+
+- [x] The user can register using name, e-mail and password.
+- [x] User passwords are all encripted.
+
+## :calendar: New appointment
+
+- [x] The user can schedule a time with a barber.
+
+## :bookmark_tabs: Schedule list
+
+- [x] User schedules can be shown.
+
+## :wrench: Running the project
+
+- Install docker and create a mysql container.
+- Clone this repository.
+- Install all dependencies using the command `yarn`.
+- Yout need to set up all environment variables `.env` file.
+- Run `yarn start`.
+
+## :fire: Used technologies
+
+- NodeJS
+- Bcryptjs
+- Moment
+- Nunjucks
+- Sequelize
+- Other Node libs.
+
+## :man: Contributors
+
+- @maeldz
